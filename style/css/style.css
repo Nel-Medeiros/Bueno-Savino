@@ -11,7 +11,7 @@
     z-index: 999;
     width: 100%;
     font-size: 13px;
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 
 .areas {
@@ -53,8 +53,19 @@
     
 }
 
+.card-content {
+    padding: 2px;
+    height: 510px;
+}
+
+
 .serv-icon {
     color: #fc6;
     font-size: 100px;
     text-align: center;
 }
+
+.prev-icon {
+    margin: 14px auto;
+}
+
