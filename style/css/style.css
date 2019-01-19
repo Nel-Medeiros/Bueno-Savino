@@ -36,6 +36,10 @@
     border-bottom: 1px solid #e0e0e0;
 }
 
+.advogados{
+    margin-top: 30px;
+}
+
 .auto-container {
     position: static;
     max-width: 1200px;
@@ -52,6 +56,15 @@
     text-align: center;
     
 }
+.adv{
+    float: left;
+    width:48%;
+    margin-top: 40px;
+}
+.adv img{
+    width: 300px;
+}
+
 
 .card-content {
     padding: 2px;
