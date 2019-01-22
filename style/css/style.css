@@ -78,6 +78,13 @@
     background: #ffffff;
     padding: 70px 0px 20px;
 }
+
+.advogados-centro {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
 .adv {
     position: relative;
     margin-bottom: 50px;    
@@ -113,3 +120,30 @@
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/*Shadow Effect*/ 
+
+.drop-shadow {
+    position: relative;
+    width: 90%;
+  }
+  
+  .drop-shadow:before,
+  .drop-shadow:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+    max-width: 300px;
+    box-shadow :0 15px 10px rgba(0, 0, 0, 0.7);
+    transform: rotate(-3deg);
+  }
+  
+  .drop-shadow:after{
+    right: 10px;
+    left: auto;
+    transform: rotate(3deg);
+  }
