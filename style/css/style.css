@@ -107,6 +107,10 @@
     padding: 20px 0px;    
 }
 
+.info-adv h3 {
+    font-size: 27px;
+}
+
 .oab {
     font-size: 25px;
     line-height: 20px;
@@ -119,6 +123,7 @@
 .graduation h4 {
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 /*Shadow Effect*/ 
@@ -146,4 +151,14 @@
     right: 10px;
     left: auto;
     transform: rotate(3deg);
+  }
+
+  .map {
+    background-image: url(../../images/map-bg1.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+  .map-info {
+    vertical-align: middle;
   }
