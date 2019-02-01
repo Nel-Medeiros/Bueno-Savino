@@ -14,6 +14,11 @@
     background-color: #ffffff;
 }
 
+.logo img {
+    width: 250px;
+    height: 130px;
+}
+
 .nav-brand {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
