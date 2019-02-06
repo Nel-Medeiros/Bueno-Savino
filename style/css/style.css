@@ -24,6 +24,36 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.contato-nav {       
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    width: 200px;    
+}
+
+.contato-nav-info {
+    position: relative;
+    padding: 0px 0px;
+}
+
+.contato-nav-info ul, li {    
+    list-style: none;
+    margin: 0px;
+}
+
+.contato-nav-info a {
+    font-size: 16px;
+    color: #807778;
+    line-height: 1.7em;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contato-nav-icon {
+    
+}
+
 .areas {
     position: relative;
     padding: 70px 0px 0px;
